@@ -23,8 +23,8 @@ public static class ServiceConfigurationHelper
         services.AddSingleton<IMockDatabaseRepository, CsvTransactionRepository>();
         services.AddSingleton<IConcurrentLruCache<string, Transaction>, ConcurrentLruCache<string, Transaction>>();
         
-        services.AddScoped<Worker,CacheWorker>();
-        services.AddScoped<Worker,CacheWorker>();
-        //services.AddScoped<Worker, RepositoryWorker>();
+        services.AddSingleton<Worker,CacheWorker>();
+        services.AddSingleton<Worker,CacheWorker>();
+        //services.AddSingleton<Worker, RepositoryWorker>();
     }
 }
