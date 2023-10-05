@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentLruCache", "ConcurrentLruCache\ConcurrentLruCache.csproj", "{F415429B-C604-4227-A373-8686BEFB1149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentLruCache.Tests", "ConcurrentLruCache.Tests\ConcurrentLruCache.Tests.csproj", "{B60ACAAD-B404-4342-967B-ABAACE7CBEE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentLruCache.Example", "ConcurrentLruCache.Example\ConcurrentLruCache.Example.csproj", "{F92DA28F-9838-4C87-8C7E-D5169A074EE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F415429B-C604-4227-A373-8686BEFB1149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F415429B-C604-4227-A373-8686BEFB1149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F415429B-C604-4227-A373-8686BEFB1149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F415429B-C604-4227-A373-8686BEFB1149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60ACAAD-B404-4342-967B-ABAACE7CBEE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60ACAAD-B404-4342-967B-ABAACE7CBEE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60ACAAD-B404-4342-967B-ABAACE7CBEE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60ACAAD-B404-4342-967B-ABAACE7CBEE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92DA28F-9838-4C87-8C7E-D5169A074EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92DA28F-9838-4C87-8C7E-D5169A074EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92DA28F-9838-4C87-8C7E-D5169A074EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92DA28F-9838-4C87-8C7E-D5169A074EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
